@@ -1,0 +1,13 @@
+"running_man"
+{
+	"base"		"base"
+	"title"		"Running Man"
+	"category"	"pvp"
+	"maps"		"^rm_"
+	"menusystem"	"1"
+	"workshopid" "3014338850"
+
+	"settings"
+	{
+	}
+}
