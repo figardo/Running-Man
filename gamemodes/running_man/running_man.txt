@@ -12,7 +12,7 @@
 		1
 		{
 			"name"		"rm_allowspawnfrags"
-			"text"		"Allow Spawn Frags"
+			"text"		"Allow Respawn Killing"
 			"help"		"Enable to kill any player that gets stuck when a player spawns on them."
 			"type"		"CheckBox"
 			"default"	"1"
@@ -30,7 +30,7 @@
 		3
 		{
 			"name"		"rm_runner_allowallweps"
-			"text"		"Allow Runner to Pick Up Weapons"
+			"text"		"Allow Runner to Pick Up Any Weapon"
 			"help"		"Allow the runner to pick up any weapon."
 			"type"		"CheckBox"
 			"default"	"0"
