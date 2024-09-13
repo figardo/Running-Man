@@ -361,6 +361,7 @@ function GM:ScalePlayerDamage(ply, hitgroup, dmg)
 		return
 	end
 
+	-- this is a very rough approximation of gm8.4 damage values
 	dmg:ScaleDamage(0.65)
 
 	-- More damage if we're shot in the head
