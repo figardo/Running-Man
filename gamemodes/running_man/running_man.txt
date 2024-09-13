@@ -5,9 +5,71 @@
 	"category"	"pvp"
 	"maps"		"^rm_"
 	"menusystem"	"1"
-	"workshopid" "3014338850"
+	"workshopid" "3330531090"
 
 	"settings"
 	{
+		1
+		{
+			"name"		"rm_allowspawnfrags"
+			"text"		"Allow Spawn Frags"
+			"help"		"Enable to kill any player that gets stuck when a player spawns on them."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		2
+		{
+			"name"		"rm_useteamplayercolor"
+			"text"		"Use Team-Colored Playermodels"
+			"help"		"Set playermodel colour to be team-based instead of HL2 defaults."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+		3
+		{
+			"name"		"rm_runner_allowallweps"
+			"text"		"Allow Runner to Pick Up Weapons"
+			"help"		"Allow the runner to pick up any weapon."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+		4
+		{
+			"name"		"rm_mossman_allowweppickup"
+			"text"		"Allow Team Mossman to Pick Up Weapons"
+			"help"		"Allow Team Mossman to pick up weapons from the ground."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		5
+		{
+			"name"		"rm_disablekillbind"
+			"text"		"Prevent Suicide"
+			"help"		"Prevent people from killbinding or switching to spectator. This is useful to prevent kill denying."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+		6
+		{
+			"name"		"rm_removeallweapons"
+			"text"		"Remove All Weapons"
+			"help"		"Destroy all map-created weapons."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+		7
+		{
+			"name"		"rm_weaponrespawntime"
+			"text"		"Weapon Respawn Time"
+			"help"		"Time until a weapon created by the map respawns after pickup."
+			"type"		"Numeric"
+			"default"	"20"
+		}
 	}
 }
