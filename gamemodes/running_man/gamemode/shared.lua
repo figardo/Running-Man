@@ -30,7 +30,7 @@ local unsupported = {
 	["uk"] = "Українська мова не підтримується. Зробіть свій внесок тут:",
 	["vi"] = "Ngôn ngữ tiếng Việt không được hỗ trợ. Đóng góp tại đây:",
 	-- ["zh-cn"] = "不支持中文（简体）语言。 在这里贡献：",
-	["zh-tw"] = "不支持中文（繁體）語言。 在這裡貢獻："
+	-- ["zh-tw"] = "不支持中文（繁體）語言。 在這裡貢獻："
 }
 
 function GM:InitPostEntity()
